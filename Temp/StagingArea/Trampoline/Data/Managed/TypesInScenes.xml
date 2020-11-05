@@ -18,7 +18,6 @@
 		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
@@ -35,7 +34,6 @@
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
@@ -45,6 +43,9 @@
 		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="PrinterController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>

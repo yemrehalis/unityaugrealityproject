@@ -272,6 +272,8 @@ struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 struct AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C;
 // UnityEngine.AnimationState
 struct AnimationState_t48FF4D41FEF3492F8286100BE3758CE3A4656386;
+// UnityEngine.Animator
+struct Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A;
 // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
 struct OnOverrideControllerDirtyCallback_t73560E6E30067C09BC58A15F9D2726051B077E2E;
 // UnityEngine.Camera
@@ -645,15 +647,6 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t188571242096CC1D2BEFEA0CA619B862EF745D19 
-{
-public:
-
-public:
-};
-
-
-// <Module>
 struct  U3CModuleU3E_t8276593D2182AD0E8D12AF6BAFC4DCCD5C1DB6C1 
 {
 public:
@@ -663,7 +656,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tA591571AD0F1B8BA034C523CD27F8800C0345102 
+struct  U3CModuleU3E_t6CDDDF959E7E18A6744E43B613F41CDAC780256A 
 {
 public:
 
@@ -672,7 +665,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tC67A5EC9770A65C5DCFEB2916D4DB35BB97F7FDB 
+struct  U3CModuleU3E_t2A7F258263D7FCABE550B20934E57EF745D92063 
 {
 public:
 
@@ -681,7 +674,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tB6F5D3E9B5847F75DE623964BF4C6C552D94BB22 
+struct  U3CModuleU3E_tF8A948C14EE892A95D0E0992A0BE6B176FF2DA1D 
 {
 public:
 
@@ -691,6 +684,15 @@ public:
 
 // <Module>
 struct  U3CModuleU3E_tAA355D8AE5C7E9492E77ED0BEF24E3CD28D275D9 
+{
+public:
+
+public:
+};
+
+
+// <Module>
+struct  U3CModuleU3E_tA591571AD0F1B8BA034C523CD27F8800C0345102 
 {
 public:
 
@@ -717,7 +719,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tF8A948C14EE892A95D0E0992A0BE6B176FF2DA1D 
+struct  U3CModuleU3E_t76DD45B11E728799BA16B6E93B81827DD86E5AEE 
 {
 public:
 
@@ -735,7 +737,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_t76DD45B11E728799BA16B6E93B81827DD86E5AEE 
+struct  U3CModuleU3E_t188571242096CC1D2BEFEA0CA619B862EF745D19 
 {
 public:
 
@@ -744,16 +746,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_t79D7DE725655CFC1B063EA359E8D75692CF5DC2F 
-{
-public:
-
-public:
-};
-
-
-// <Module>
-struct  U3CModuleU3E_t2A7F258263D7FCABE550B20934E57EF745D92063 
+struct  U3CModuleU3E_tD4E2C466946EFCC911763D21CD7F606F5D963632 
 {
 public:
 
@@ -771,7 +764,25 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tD4E2C466946EFCC911763D21CD7F606F5D963632 
+struct  U3CModuleU3E_tB6F5D3E9B5847F75DE623964BF4C6C552D94BB22 
+{
+public:
+
+public:
+};
+
+
+// <Module>
+struct  U3CModuleU3E_tC67A5EC9770A65C5DCFEB2916D4DB35BB97F7FDB 
+{
+public:
+
+public:
+};
+
+
+// <Module>
+struct  U3CModuleU3E_t79D7DE725655CFC1B063EA359E8D75692CF5DC2F 
 {
 public:
 
@@ -20559,6 +20570,46 @@ public:
 };
 
 
+// PrinterController
+struct  PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+{
+public:
+	// UnityEngine.Animator PrinterController::anim
+	Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * ___anim_4;
+	// System.Boolean PrinterController::PrintOn
+	bool ___PrintOn_5;
+	// UnityEngine.GameObject PrinterController::UiPanel
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___UiPanel_6;
+
+public:
+	inline static int32_t get_offset_of_anim_4() { return static_cast<int32_t>(offsetof(PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2, ___anim_4)); }
+	inline Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * get_anim_4() const { return ___anim_4; }
+	inline Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A ** get_address_of_anim_4() { return &___anim_4; }
+	inline void set_anim_4(Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * value)
+	{
+		___anim_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___anim_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_PrintOn_5() { return static_cast<int32_t>(offsetof(PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2, ___PrintOn_5)); }
+	inline bool get_PrintOn_5() const { return ___PrintOn_5; }
+	inline bool* get_address_of_PrintOn_5() { return &___PrintOn_5; }
+	inline void set_PrintOn_5(bool value)
+	{
+		___PrintOn_5 = value;
+	}
+
+	inline static int32_t get_offset_of_UiPanel_6() { return static_cast<int32_t>(offsetof(PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2, ___UiPanel_6)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_UiPanel_6() const { return ___UiPanel_6; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_UiPanel_6() { return &___UiPanel_6; }
+	inline void set_UiPanel_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		___UiPanel_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___UiPanel_6), (void*)value);
+	}
+};
+
+
 // UnityEngine.EventSystems.EventTrigger
 struct  EventTrigger_t594B0A2EC0E92150FF56250E207ECB7A90BB6298  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
 {
@@ -31320,6 +31371,16 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2690[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2691;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2691 = { sizeof (__StaticArrayInitTypeSizeU3D12_t7F98A3A922EF4B6DA62C3CF2D4E5897EED2C26B8)+ sizeof (RuntimeObject), sizeof(__StaticArrayInitTypeSizeU3D12_t7F98A3A922EF4B6DA62C3CF2D4E5897EED2C26B8 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2692;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2692 = { sizeof (U3CModuleU3E_t6CDDDF959E7E18A6744E43B613F41CDAC780256A), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2693;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2693 = { sizeof (PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2), -1, 0, 0 };
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2693[3] = 
+{
+	PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2::get_offset_of_anim_4(),
+	PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2::get_offset_of_PrintOn_5(),
+	PrinterController_t82DDAA61788EADAC1020785EC296FA64191B27C2::get_offset_of_UiPanel_6(),
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

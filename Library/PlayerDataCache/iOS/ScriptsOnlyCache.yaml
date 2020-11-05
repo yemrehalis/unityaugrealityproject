@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - PrinterController
     Enhancer.Editor.dll:
     - XT.Enhancer.Settings
     Unity.Rider.Editor.dll:
@@ -13,8 +15,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -49,8 +53,6 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -90,6 +92,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13370}
     - Class: 114
       Script: {instanceID: 13488}
+    - Class: 114
+      Script: {instanceID: 15488}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -727,6 +731,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c7245566836fbcf3c10f74c2c281ecde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PrinterController
   platform: 9
   scenePathNames:
   - Assets/Scenes/ARDemo.unity

@@ -66,8 +66,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARFoundationCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKitCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[32] = 
+const Il2CppCodeGenModule* g_CodeGenModules[33] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -101,6 +102,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[32] =
 	(&g_Unity_XR_ARKitCodeGenModule),
 	(&g_UnityEngineCodeGenModule),
 	(&g_UnityEngine_UICodeGenModule),
+	(&g_AssemblyU2DCSharpCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
@@ -109,9 +111,9 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	g_ReversePInvokeWrapperPointers,
 	11278,
 	g_Il2CppGenericMethodPointers,
-	2996,
+	2997,
 	g_Il2CppInvokerPointers,
-	3956,
+	3963,
 	g_AttributeGenerators,
 	560,
 	g_UnresolvedVirtualMethodPointers,
@@ -119,7 +121,7 @@ const Il2CppCodeRegistration g_CodeRegistration =
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	32,
+	33,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

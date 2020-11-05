@@ -225,15 +225,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshCollider",
-            "fullManagedTypeName": "UnityEngine.MeshCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ARDemo.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Canvas",
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
@@ -378,15 +369,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ARDemo.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Font",
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
@@ -483,6 +465,13 @@
             "usedInScenes": [
                 "Assets/Scenes/ARDemo.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PrinterController",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
