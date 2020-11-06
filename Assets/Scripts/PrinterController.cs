@@ -21,29 +21,19 @@ public class PrinterController : MonoBehaviour
     }
 
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
 
    public void PrintStart()
     {
+        UiPanel.gameObject.SetActive(true);
+
         if (PrintOn==false)
 
         {
             PrintOn = true;
             anim.Play("bed_animation_down");
-            PrintOn = false;
-            UiPanel.gameObject.SetActive(true);
-
+          
         }
+     
         
 
 
